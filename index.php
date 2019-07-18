@@ -11,7 +11,7 @@ $query = mysqli_query($conn, $sql);
 <html>
 <head>
 	<title>Data</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
 </head>
 <body>
 
@@ -29,7 +29,7 @@ $query = mysqli_query($conn, $sql);
 					<td><?= $i ?></td>
 					<td><?= $data['namaProduk'] ?></td>
 					<td>
-						<a href="view.php"><button class="btn btn-info btn-sm">View Data</button></a>
+						<a href="view/view.php"><button class="btn btn-info btn-sm">View Data</button></a>
 					</td>
 				</tr>
 				<?php $i++ ?>
@@ -39,6 +39,6 @@ $query = mysqli_query($conn, $sql);
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
+<script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
