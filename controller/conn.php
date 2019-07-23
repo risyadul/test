@@ -1,8 +1,7 @@
 <?php
 $servername = "localhost";
-$dbname = "tugas";
+$dbname = "tugasdts";
 $user = "root";
 $pw = "";
 
 $conn = mysqli_connect($servername, $user, $pw, $dbname);
- 
